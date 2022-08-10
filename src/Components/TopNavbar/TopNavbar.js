@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import './TopNavbar.css'
-import ImgAsset from '../public'
+import ImgAsset from '../../public'
 
 import "primeicons/primeicons.css";                                //icons
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import Navgrid from './Navgrid';
-import TopNavbar from './TopNavbar';
-import AlunoBar from './AlunoBar';
-import CadastrodeExerccio from './CadastrodeExerccio';
+import Navgrid from '../Navgrid/Navgrid';
+import TopNavbar from '../TopNavbar/TopNavbar';
+import AlunoBar from '../AlunoBar/AlunoBar';
+import CadastrodeExerccio from '../CadastroExercicio/CadastrodeExerccio';
 
 import './CriarExercicio.css'
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navgrid.css'
-import ImgAsset from '../public'
+import ImgAsset from '../../public'
 import { Link } from "react-router-dom";
 
 export default function Navgrid() {

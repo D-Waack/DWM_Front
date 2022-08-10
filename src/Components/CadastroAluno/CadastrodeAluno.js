@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useRef } from 'react';
 import './CadastrodeAluno.css'
-import ImgAsset from '../public'
+import ImgAsset from '../../public'
 
 // Primereact imports begin
 import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme

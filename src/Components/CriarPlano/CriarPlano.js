@@ -1,10 +1,10 @@
 import React from 'react';
-import Navgrid from './Navgrid';
-import TopNav from './TopNavbar';
-import AlunoBar from './AlunoBar';
-import CadastrodePlano from './CadastrodePlano';
+import Navgrid from '../Navgrid/Navgrid';
+import TopNav from '../TopNavbar/TopNavbar';
+import AlunoBar from '../AlunoBar/AlunoBar';
+import CadastrodePlano from '../CadastroPlano/CadastrodePlano';
 
-import './CriarExercicio.css'
+import '../CriarExercicio/CriarExercicio.css'
 
 export default function CriarPlano() {
     return (

@@ -1,10 +1,10 @@
 import React from 'react';
-import Navgrid from './Navgrid';
-import TopNavbar from './TopNavbar';
-import AlunoBar from './AlunoBar';
+import Navgrid from '../Navgrid/Navgrid';
+import TopNavbar from '../TopNavbar/TopNavbar';
+import AlunoBar from '../AlunoBar/AlunoBar';
 import EdicaodePlano from './EdicaodePlano';
 
-import './CriarExercicio.css'
+import '../CriarExercicio/CriarExercicio.css'
 
 export default function EditarPlano() {
     const name = "Treino só barriga"

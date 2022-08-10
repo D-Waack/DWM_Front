@@ -1,10 +1,10 @@
 import React from 'react';
-import Navgrid from './Navgrid';
-import TopNavbar from './TopNavbar';
-import AlunoBar from './AlunoBar';
+import Navgrid from '../Navgrid/Navgrid';
+import TopNavbar from '../TopNavbar/TopNavbar';
+import AlunoBar from '../AlunoBar/AlunoBar';
 import EdicaodeExercicio from './EdicaodeExercicio';
 
-import './CriarExercicio.css'
+import '../CriarExercicio/CriarExercicio.css'
 
 export default function EditarExercicio() {
     const descricao = "Mãos a uma distância maior que o comprimento dos ombros, realizar a repetição contraindo a dorsal e ativando a escápula até encostar a barra no peito."
