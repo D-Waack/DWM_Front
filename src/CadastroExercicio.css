@@ -1,0 +1,88 @@
+textarea
+{
+   resize: none;
+}
+.container_exercicio {
+    background-color: rgba(192,251,187,1.00);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template: 1fr 9fr / 1fr 1fr;
+    gap: 10px;
+}
+.title{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 26px;
+    background-color: aquamarine;
+}
+.exercicio_card {
+    grid-row: 2;
+    grid-column: 1;
+    border-radius: 10px;
+    border-color: white;
+    border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.equipamento_card {
+    grid-row:2;
+    grid-column: 2;
+}
+.buttons {
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+	align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction:row;
+}
+.buttons_criar {
+	left: 0px;
+	top: 0px;
+	width: 98px;
+	height: 50px;
+	background: rgba(68,206,58,1.00);
+	color: black;
+	border-radius: 5px;
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.buttons_criar:hover {
+	left: 0px;
+	top: 0px;
+	width: 98px;
+	height: 50px;
+	background: rgba(53, 161, 45, 1.00);
+	color: black;
+	border-radius: 5px;
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.buttons_cancelar {
+	left: 0px;
+	top: 0px;
+	width: 98px;
+	height: 50px;
+	background: rgba(255,255,255,0.60);
+	color: black;
+	border-radius: 5px;
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+
+textarea
+{
+   resize: none;
+}

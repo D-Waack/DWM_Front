@@ -1,0 +1,1101 @@
+
+.EdiodeAluno_EdiodeAluno {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(192,251,187,1.00);
+	border-radius: 30px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard {
+	position: absolute;
+	left: 32px;
+	top: 395px;
+	width: 922px;
+	height: 429px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .Base {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 922px;
+	height: 429px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 {
+	position: absolute;
+	left: 478px;
+	top: 132px;
+	width: 418px;
+	height: 110px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 .Base_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 412px;
+	height: 100px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 6px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 .Sex190822 {
+	position: absolute;
+	left: 273px;
+	top: 16px;
+	width: 76px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 .editIcon {
+	position: absolute;
+	left: 367px;
+	top: 64px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 .editIcon .Vector {
+	position: absolute;
+	left: 3px;
+	top: 2.99749755859375px;
+	width: 75.01017252604166%;
+	height: 75.01042683919272%;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 .excluirIcon {
+	position: absolute;
+	left: 367px;
+	top: 40px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 .excluirIcon .Vector_1 {
+	position: absolute;
+	left: 2.25px;
+	top: 0px;
+	width: 81.25%;
+	height: 93.75%;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 .calendarIcon {
+	position: absolute;
+	left: 367px;
+	top: 11px;
+	width: 5.741626794258373%;
+	height: 21.818181818181817%;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 .calendarIcon .Vector_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 .PlanoSubtitle {
+	position: absolute;
+	left: 16px;
+	top: 48px;
+	width: 335px;
+	height: 36px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 14.0625px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem2 .PlanoTitle {
+	position: absolute;
+	left: 16px;
+	top: 16px;
+	width: 78px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover {
+	position: absolute;
+	left: 33px;
+	top: 132px;
+	width: 418px;
+	height: 110px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover .Base_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 412px;
+	height: 100px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 6px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover .Qua170822 {
+	position: absolute;
+	left: 273px;
+	top: 16px;
+	width: 79px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover .editIcon_1 {
+	position: absolute;
+	left: 367px;
+	top: 64px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover .editIcon_1 .Vector_3 {
+	position: absolute;
+	left: 3px;
+	top: 2.99749755859375px;
+	width: 75.01017252604166%;
+	height: 75.01042683919272%;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover .excluirIcon_1 {
+	position: absolute;
+	left: 367px;
+	top: 40px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover .excluirIcon_1 .Vector_4 {
+	position: absolute;
+	left: 2.25px;
+	top: 0px;
+	width: 81.25%;
+	height: 93.75%;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover .calendarIcon_1 {
+	position: absolute;
+	left: 367px;
+	top: 11px;
+	width: 5.741626794258373%;
+	height: 21.818181818181817%;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover .calendarIcon_1 .Vector_5 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover .PlanoSubtitle_1 {
+	position: absolute;
+	left: 16px;
+	top: 48px;
+	width: 335px;
+	height: 36px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 14.0625px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .planoItem1hover .PlanoTitle_1 {
+	position: absolute;
+	left: 16px;
+	top: 16px;
+	width: 100px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .PlanoField {
+	position: absolute;
+	left: 33px;
+	top: 30px;
+	width: 412px;
+	height: 70px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .PlanoField .inputfield {
+	position: absolute;
+	left: 0px;
+	top: 25px;
+	width: 412px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .PlanoField .hint {
+	position: absolute;
+	left: 42px;
+	top: 41px;
+	width: 115px;
+	height: 13px;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .PlanoField .addPlanoButton {
+	position: absolute;
+	left: 377px;
+	top: 34px;
+	width: 28px;
+	height: 28px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .PlanoField .addPlanoButton .base {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 28px;
+	height: 28px;
+	border-radius: 2px;
+	border: 1px solid rgba(106.00000128149986,221.00000202655792,98.00000175833702,1);
+	box-sizing: border-box;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .PlanoField .addPlanoButton .addIcon {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	width: 12px;
+	height: 12px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .PlanoField .addPlanoButton .addIcon .Vector_6 {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 79.16666666666666%;
+	height: 79.16666666666666%;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .PlanoField .searchIcon2 {
+	position: absolute;
+	left: 11px;
+	top: 38px;
+	width: 20px;
+	height: 20px;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .PlanoField .searchIcon2 .Vector_7 {
+	position: absolute;
+	left: 1.666015625px;
+	top: 1.6668701171875px;
+	width: 83.33740234375%;
+	height: 83.33526611328125%;
+}
+.EdiodeAluno_EdiodeAluno .AtribuiPlanoCard .PlanoField .EQUIPAMENTOS {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 94px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard {
+	position: absolute;
+	left: 32px;
+	top: 120px;
+	width: 922px;
+	height: 236px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .Base_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 922px;
+	height: 236px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .SenhaField {
+	position: absolute;
+	left: 478px;
+	top: 131px;
+	width: 412px;
+	height: 71px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .SenhaField .inputfield_1 {
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	width: 412px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .SenhaField .value {
+	position: absolute;
+	left: 11px;
+	top: 42px;
+	width: 104px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .SenhaField .Senha {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 35px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .UserField {
+	position: absolute;
+	left: 33px;
+	top: 131px;
+	width: 412px;
+	height: 71px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .UserField .inputfield_2 {
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	width: 412px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .UserField .value_1 {
+	position: absolute;
+	left: 11px;
+	top: 42px;
+	width: 78px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .UserField .Nomedeusurio {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .EmailField {
+	position: absolute;
+	left: 478px;
+	top: 30px;
+	width: 412px;
+	height: 71px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .EmailField .inputfield_3 {
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	width: 412px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .EmailField .value_2 {
+	position: absolute;
+	left: 11px;
+	top: 42px;
+	width: 162px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .EmailField .Email {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 34px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .NomeField {
+	position: absolute;
+	left: 33px;
+	top: 30px;
+	width: 412px;
+	height: 71px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .NomeField .inputfield_4 {
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	width: 412px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .NomeField .value_3 {
+	position: absolute;
+	left: 11px;
+	top: 42px;
+	width: 143px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .EditAlunoCard .NomeField .Nome {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 33px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .CancelButton {
+	position: absolute;
+	left: 856px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.EdiodeAluno_EdiodeAluno .CancelButton .Base_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(255,255,255,0.60);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .CancelButton .Base_4:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(217,217,217,0.60);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .CancelButton .CANCELAR {
+	position: absolute;
+	left: 21px;
+	top: 19px;
+	width: 59px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .ExcluirButton {
+	position: absolute;
+	left: 738px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.EdiodeAluno_EdiodeAluno .ExcluirButton .Base_5 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(243,81,59,1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .ExcluirButton .Base_5:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgb(189, 55, 37);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .ExcluirButton .EXCLUIR {
+	position: absolute;
+	left: 30px;
+	top: 19px;
+	width: 42px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .ConfirmButton {
+	position: absolute;
+	left: 622px;
+	top: 30px;
+	width: 100px;
+	height: 50px;
+}
+.EdiodeAluno_EdiodeAluno .ConfirmButton .Base_6 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .ConfirmButton .Base_6:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(53, 161, 45, 1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .ConfirmButton .CONFIRMAR {
+	position: absolute;
+	left: 18px;
+	top: 19px;
+	width: 64px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .ProfilePicture {
+	position: absolute;
+	left: 355px;
+	top: 12px;
+	width: 68px;
+	height: 66px;
+}
+.EdiodeAluno_EdiodeAluno .ProfilePicture .base_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 68px;
+	height: 66px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 50%;
+}
+.EdiodeAluno_EdiodeAluno .ProfilePicture .base_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 68px;
+	height: 66px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodeAluno_EdiodeAluno .ProfilePicture .userIcon {
+	visibility: hidden;
+	position: absolute;
+	left: 22px;
+	top: 21px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeAluno_EdiodeAluno .ProfilePicture .userIcon .Vector_8 {
+	position: absolute;
+	left: 3px;
+	top: 2px;
+	width: 75%;
+	height: 79.16666666666666%;
+}
+.EdiodeAluno_EdiodeAluno .TitlePage {
+	position: absolute;
+	left: 32px;
+	top: 32px;
+	width: 303px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar {
+	position: absolute;
+	left: 1162px;
+	top: 112px;
+	width: 278px;
+	height: 912px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .Base_7 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 912px;
+	background: rgba(255,255,255,0.60);
+}
+.EdiodeAluno_EdiodeAluno .SideBar .AlunosTitle {
+	position: absolute;
+	left: 25px;
+	top: 16px;
+	width: 56px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList3 {
+	position: absolute;
+	left: 0px;
+	top: 238px;
+	width: 278px;
+	height: 90px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList3 .base_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList3 .aluno3 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList3 .optIcon {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList3 .optIcon .Vector_9 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList3 .spencer_admgmailcom {
+	position: absolute;
+	left: 94px;
+	top: 41px;
+	width: 133px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList3 .SamuelSpencer {
+	position: absolute;
+	left: 94px;
+	top: 21px;
+	width: 131px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList2 {
+	position: absolute;
+	left: 0px;
+	top: 148px;
+	width: 278px;
+	height: 90px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList2 .base_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182,185,188,1);
+	box-sizing: border-box;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList2 .aluno2 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList2 .optIcon_1 {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList2 .optIcon_1 .Vector_10 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList2 .framboeasa_kitgmailcom {
+	position: absolute;
+	left: 94px;
+	top: 41px;
+	width: 141px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList2 .KitLaframboise {
+	position: absolute;
+	left: 94px;
+	top: 21px;
+	width: 87px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList1 {
+	position: absolute;
+	left: 0px;
+	top: 58px;
+	width: 278px;
+	height: 90px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList1 .base_5 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList1 .hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	background: rgba(217,217,217,0.60);
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList1 .optIcon_2 {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList1 .optIcon_2 .Vector_11 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList1 .abgael23gmailcom {
+	position: absolute;
+	left: 94px;
+	top: 40px;
+	width: 111px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList1 .AbagaelEnno {
+	position: absolute;
+	left: 94px;
+	top: 22px;
+	width: 81px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeAluno_EdiodeAluno .SideBar .alunosList1 .aluno1 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodeAluno_EdiodeAluno .MainNav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 120px;
+	height: 1024px;
+	background: rgba(41,41,41,1.00);
+	border: 1px solid rgba(255,255,255,1);
+}
+.EdiodeAluno_EdiodeAluno .MainNav .PlanoIcon {
+	position: absolute;
+	left: 35px;
+	top: 687px;
+	width: 50px;
+	height: 50px;
+}
+.EdiodeAluno_EdiodeAluno .MainNav .PlanoIcon .Vector_12 {
+	position: absolute;
+	left: 3px;
+	top: 8px;
+	width: 90%;
+	height: 67.5%;
+}
+.EdiodeAluno_EdiodeAluno .MainNav .ExercicioIcon {
+	position: absolute;
+	left: 35px;
+	top: 487px;
+	width: 50px;
+	height: 50px;
+}
+.EdiodeAluno_EdiodeAluno .MainNav .ExercicioIcon .Vector_13 {
+	position: absolute;
+	left: 0px;
+	top: 14.583343505859375px;
+	width: 100%;
+	height: 50.00006103515625%;
+}
+.EdiodeAluno_EdiodeAluno .MainNav .AlunoIcon {
+	position: absolute;
+	left: 40px;
+	top: 297px;
+	width: 40px;
+	height: 40px;
+}
+.EdiodeAluno_EdiodeAluno .MainNav .AlunoIcon .Vector_14 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.EdiodeAluno_EdiodeAluno .MainNav .Logo {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	width: 40px;
+	height: 50px;
+}
+.EdiodeAluno_EdiodeAluno .MainNav .Logo ._Path_ {
+	position: absolute;
+	left: -0.3177490234375px;
+	top: 15.722049713134766px;
+	width: 26.4261474609375px;
+	height: 26.426151275634766px;
+}
+.EdiodeAluno_EdiodeAluno .MainNav .Logo ._Path_3 {
+	position: absolute;
+	left: -14.1026611328125px;
+	top: -5.246006011962891px;
+	width: 60.9544677734375px;
+	height: 60.95444869995117px;
+}
+.EdiodeAluno_EdiodeAluno .MainNav .Logo ._Path_5 {
+	position: absolute;
+	left: -16px;
+	top: -6.000003814697266px;
+	width: 57.933349609375px;
+	height: 57.9332389831543px;
+}
+.EdiodeAluno_EdiodeAluno .MainNav .Indicator {
+	position: absolute;
+	left: 0px;
+	top: 269px;
+	width: 9px;
+	height: 96px;
+}
+.EdiodeAluno_EdiodeAluno .TopNav {
+	position: absolute;
+	left: 120px;
+	top: 0px;
+	width: 1320px;
+	height: 112px;
+	background: rgba(41,41,41,1.00);
+}
+.EdiodeAluno_EdiodeAluno .TopNav .perfilInstrutor {
+	position: absolute;
+	left: 1212px;
+	top: 27px;
+	width: 58px;
+	height: 58px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid rgba(255,255,255,1);
+	background-size: cover;
+}
+.EdiodeAluno_EdiodeAluno .TopNav .SearchBar {
+	position: absolute;
+	left: 42px;
+	top: 43px;
+	width: 628px;
+	height: 26px;
+}
+.EdiodeAluno_EdiodeAluno .TopNav .SearchBar .searchIcon {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 26px;
+	height: 26px;
+}
+.EdiodeAluno_EdiodeAluno .TopNav .SearchBar .searchIcon .Vector_15 {
+	position: absolute;
+	left: 2.1658935546875px;
+	top: 2.166942596435547px;
+	width: 83.33740234375%;
+	height: 83.33512819730319%;
+}

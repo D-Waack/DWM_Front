@@ -1,0 +1,964 @@
+textarea
+{
+   resize: none;
+}
+.CadastrodeExerccio_CadastrodeExerccio {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 74vw;
+	height: 100vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: rgba(192,251,187,1.00);
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard {
+	position: relative;
+	left: 640px;
+	top: 128px;
+	width: 100%;
+	height: 100%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .Base {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 456px;
+	height: 704px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .equipItem1hover {
+	position: absolute;
+	left: 33px;
+	top: 132px;
+	width: 397px;
+	height: 110px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .equipItem1hover .Base_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 391px;
+	height: 100px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 6px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .equipItem1hover .editIcon {
+	position: absolute;
+	left: 346px;
+	top: 56px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .equipItem1hover .editIcon .Vector {
+	position: absolute;
+	left: 3px;
+	top: 2.99749755859375px;
+	width: 75.01017252604166%;
+	height: 75.01042683919272%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .equipItem1hover .excluirIcon {
+	position: absolute;
+	left: 346px;
+	top: 20px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .equipItem1hover .excluirIcon .Vector_1 {
+	position: absolute;
+	left: 2.25px;
+	top: 0px;
+	width: 81.25%;
+	height: 93.75%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .equipItem1hover .EquipTitle {
+	position: absolute;
+	left: 118px;
+	top: 43px;
+	width: 108px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .equipItem1hover .image {
+	position: absolute;
+	left: 9px;
+	top: 9px;
+	width: 93px;
+	height: 81px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 6px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .EquipField {
+	position: absolute;
+	left: 33px;
+	top: 30px;
+	width: 391px;
+	height: 70px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .EquipField .inputfield {
+	position: absolute;
+	left: 0px;
+	top: 8px;
+	width: 391px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .EquipField .hint {
+	position: absolute;
+	left: 0px;
+	top: 8px;
+	width: 391px;
+	height: 48px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .EquipField .addEquipButton {
+	position: absolute;
+	left: 356px;
+	top: 34px;
+	width: 28px;
+	height: 28px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .EquipField .addEquipButton .base {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 28px;
+	height: 28px;
+	border-radius: 2px;
+	border: 1px solid rgba(106.00000128149986,221.00000202655792,98.00000175833702,1);
+	box-sizing: border-box;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .EquipField .addEquipButton .addIcon {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	width: 12px;
+	height: 12px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .EquipField .addEquipButton .addIcon .Vector_2 {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 79.16666666666666%;
+	height: 79.16666666666666%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .EquipField .searchIcon2 {
+	position: absolute;
+	left: 11px;
+	top: 38px;
+	width: 20px;
+	height: 20px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .EquipField .searchIcon2 .Vector_3 {
+	position: absolute;
+	left: 1.66607666015625px;
+	top: 1.6668701171875px;
+	width: 83.33709716796875%;
+	height: 83.33511352539062%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SelectEquipCard .EquipField .EQUIPAMENTOS {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 156px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard {
+	position: absolute;
+	left: 64px;
+	top: 128px;
+	width: 100%;
+	height: 100%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .Base_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 427px;
+	height: 704px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField {
+	position: absolute;
+	left: 32px;
+	top: 427px;
+	width: 362px;
+	height: 118px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField .Video {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 144px;
+	height: 118px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField .Video .videoImage {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 144px;
+	height: 108px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField .Video .playIcon {
+	position: absolute;
+	left: 58px;
+	top: 44px;
+	width: 27.022216796875px;
+	height: 19px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField .Video .playIcon .Vector_4 {
+	position: absolute;
+	left: -0.00018310546875px;
+	top: 0px;
+	width: 99.99830597291364%;
+	height: 99.60295024671053%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField .Video .playIcon .Vector_5 {
+	position: absolute;
+	left: 10.81109619140625px;
+	top: 5.406982421875px;
+	width: 25.909353739960068%;
+	height: 42.68670333059211%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField .linkButton {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 52px;
+	height: 53px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField .linkButton .Base_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 45px;
+	height: 45px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 4px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField .linkButton .linkIcon {
+	position: absolute;
+	left: 11px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField .linkButton .linkIcon .Vector_6 {
+	position: absolute;
+	left: 2.760040283203125px;
+	top: 2.76007080078125px;
+	width: 76.99616750081381%;
+	height: 76.99991861979166%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .VideoField .linkButton .linkIcon .Vector_7 {
+	position: absolute;
+	left: 7.0489959716796875px;
+	top: 7.04998779296875px;
+	width: 41.25417073567708%;
+	height: 41.25010172526042%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .ExecField {
+	position: absolute;
+	left: 33px;
+	top: 286px;
+	width: 362px;
+	height: 103px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .ExecField .inputfield_1 {
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	width: 362px;
+	height: 78px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(181.79375141859055,185.2130663394928,188.06250303983688,1);
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .ExecField .hint_1 {
+	position: absolute;
+	left: 11px;
+	top: 42px;
+	width: 340px;
+	height: 26px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .ExecField .EXECUCAO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 62px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .GrupoField {
+	position: absolute;
+	left: 33px;
+	top: 134px;
+	width: 362px;
+	height: 119px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .GrupoField .tagItem1 {
+	position: absolute;
+	left: 0px;
+	top: 79px;
+	width: 79px;
+	height: 20px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .GrupoField .tagItem1 .Base_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 79px;
+	height: 20px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 10px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .GrupoField .tagItem1 .Quadrceps {
+	position: absolute;
+	left: 7px;
+	top: 4px;
+	width: 66px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(255,255,255,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .GrupoField .inputfield_2 {
+	position: absolute;
+	left: 0px;
+	top: 24px;
+	width: 362px;
+	height: 45px;
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .GrupoField .dropDown {
+	position: absolute;
+	left: 317px;
+	top: 24px;
+	width: 45px;
+	height: 45px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .GrupoField .dropDown .picker {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 45px;
+	height: 45px;
+	background: rgba(244,247,249,0.40);
+	border: 1px solid rgba(68.0100730061531,206.12500101327896,58.40209096670151,1);
+	box-sizing: border-box;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .GrupoField .dropDown .chevron {
+	position: absolute;
+	left: 19.0693359375px;
+	top: 20.930633544921875px;
+	width: 9.331298828125px;
+	height: 5.470001220703125px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .GrupoField .hint_2 {
+	position: absolute;
+	left: 11px;
+	top: 40px;
+	width: 68px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .GrupoField .GRUPO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 104px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .TitleField {
+	position: absolute;
+	left: 33px;
+	top: 30px;
+	width: 362px;
+	height: 71px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .TitleField .inputfield_3 {
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	width: 362px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .TitleField .hint_3 {
+	position: absolute;
+	left: 0px;
+	top: 25px;
+	width: 362px;
+	height: 45px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarExercCard .TitleField .TTULO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 37px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CancelButton {
+	position: absolute;
+	left: 1002.0000000000002px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CancelButton .Base_5 {
+	position: absolute;
+	left: -2px;
+	top: 0px;
+	width: 97.142822265625px;
+	height: 50px;
+	background: rgba(255,255,255,0.60);
+	color: rgba(0,0,0,1.00);
+	border-radius: 5px;
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CancelButton .Base_5:hover {
+	position: absolute;
+	left: -2px;
+	top: 0px;
+	width: 97.142822265625px;
+	height: 50px;
+	background: rgba(196, 187, 187, 0.6);
+	color: rgba(0,0,0,1.00);
+	border-radius: 5px;
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CancelButton .CANCELAR {
+	position: absolute;
+	left: 21px;
+	top: 19px;
+	width: 59px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarButton {
+	position: absolute;
+	left: 886px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarButton .Base_6 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 97.142822265625px;
+	height: 50px;
+	background: rgba(68,206,58,1.00);
+	color: black;
+	border-radius: 5px;
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarButton .Base_6:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 97.142822265625px;
+	height: 50px;
+	background: rgba(53, 161, 45, 1.00);
+	color: black;
+	border-radius: 5px;
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .CriarButton .CRIAR {
+	position: absolute;
+	left: 34px;
+	top: 19px;
+	width: 32px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .TitlePage {
+	position: absolute;
+	left: 32px;
+	top: 32px;
+	width: 259px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar {
+	position: absolute;
+	left: 1162.0000000000002px;
+	top: 112px;
+	width: 278px;
+	height: 912px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .Base_7 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 912px;
+	background: rgba(255,255,255,0.60);
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .AlunosTitle {
+	position: absolute;
+	left: 25px;
+	top: 16px;
+	width: 56px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList3 {
+	position: absolute;
+	left: 0px;
+	top: 238px;
+	width: 278px;
+	height: 90px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList3 .base_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList3 .aluno3 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList3 .optIcon {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList3 .optIcon .Vector_8 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList3 .spencer_admgmailcom {
+	position: absolute;
+	left: 94px;
+	top: 41px;
+	width: 133px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList3 .SamuelSpencer {
+	position: absolute;
+	left: 94px;
+	top: 21px;
+	width: 131px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList2 {
+	position: absolute;
+	left: 0px;
+	top: 148px;
+	width: 278px;
+	height: 90px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList2 .base_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList2 .aluno2 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList2 .optIcon_1 {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList2 .optIcon_1 .Vector_9 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList2 .framboeasa_kitgmailcom {
+	position: absolute;
+	left: 94px;
+	top: 41px;
+	width: 141px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList2 .KitLaframboise {
+	position: absolute;
+	left: 94px;
+	top: 21px;
+	width: 87px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList1 {
+	position: absolute;
+	left: 0px;
+	top: 58px;
+	width: 278px;
+	height: 90px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList1 .base_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList1 .hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	background: rgba(217,217,217,0.60);
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList1 .optIcon_2 {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList1 .optIcon_2 .Vector_10 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList1 .abgael23gmailcom {
+	position: absolute;
+	left: 94px;
+	top: 40px;
+	width: 111px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList1 .AbagaelEnno {
+	position: absolute;
+	left: 94px;
+	top: 22px;
+	width: 81px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .SideBar .alunosList1 .aluno1 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav {
+	
+	left: 2.2737367544323206e-13px;
+	top: 0px;
+	width: 120px;
+	height: 100vh;
+	position: fixed;
+	background: rgba(41,41,41,1.00);
+	border: 1px solid rgba(255,255,255,1);
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .PlanoIcon {
+	position: absolute;
+	left: 35px;
+	top: 687px;
+	width: 50px;
+	height: 50px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .PlanoIcon .Vector_11 {
+	position: absolute;
+	left: 3px;
+	top: 8px;
+	width: 90%;
+	height: 67.5%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .ExercicioIcon {
+	position: absolute;
+	left: 35px;
+	top: 487px;
+	width: 50px;
+	height: 50px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .ExercicioIcon .Vector_12 {
+	position: absolute;
+	left: 0.000041961669921875px;
+	top: 14.583343505859375px;
+	width: 100.00000762939453%;
+	height: 50.00006103515625%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .AlunoIcon {
+	position: absolute;
+	left: 40px;
+	top: 297px;
+	width: 40px;
+	height: 40px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .AlunoIcon .Vector_13 {
+	position: absolute;
+	left: -0.0000457763671875px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .Logo {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	width: 40px;
+	height: 50px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .Logo ._Path_ {
+	position: absolute;
+	left: -0.3177604675292969px;
+	top: 15.722049713134766px;
+	width: 26.426151275634766px;
+	height: 26.426151275634766px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .Logo ._Path_3 {
+	position: absolute;
+	left: -14.10269546508789px;
+	top: -5.246006011962891px;
+	width: 60.95444869995117px;
+	height: 60.95444869995117px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .Logo ._Path_5 {
+	position: absolute;
+	left: -15.999946594238281px;
+	top: -6.000003814697266px;
+	width: 57.93323516845703px;
+	height: 57.9332389831543px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .MainNav .Indicator {
+	position: absolute;
+	left: 0px;
+	top: 466px;
+	width: 9px;
+	height: 96px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .TopNav {
+	position: absolute;
+	left: 120.00000000000023px;
+	top: 0px;
+	width: 1320px;
+	height: 112px;
+	background: rgba(41,41,41,1.00);
+}
+.CadastrodeExerccio_CadastrodeExerccio .TopNav .perfilInstrutor {
+	position: absolute;
+	left: 1212px;
+	top: 27px;
+	width: 58px;
+	height: 58px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid rgba(255,255,255,1);
+	background-size: cover;
+}
+.CadastrodeExerccio_CadastrodeExerccio .TopNav .SearchBar {
+	position: absolute;
+	left: 42px;
+	top: 43px;
+	width: 628px;
+	height: 26px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .TopNav .SearchBar .searchIcon {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 26px;
+	height: 26px;
+}
+.CadastrodeExerccio_CadastrodeExerccio .TopNav .SearchBar .searchIcon .Vector_14 {
+	position: absolute;
+	left: 2.165863037109375px;
+	top: 2.166942596435547px;
+	width: 83.33722628079929%;
+	height: 83.33512819730319%;
+}

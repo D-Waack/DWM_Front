@@ -1,0 +1,972 @@
+
+.EdiodePlano_EdiodePlano {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(192,251,187,1.00);
+	border-radius: 30px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard {
+	position: absolute;
+	left: 498px;
+	top: 120px;
+	width: 456px;
+	height: 704px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .Base {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 456px;
+	height: 704px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem2 {
+	position: absolute;
+	left: 33px;
+	top: 242px;
+	width: 397px;
+	height: 110px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem2 .Base_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 391px;
+	height: 100px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 6px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem2 .editIcon {
+	position: absolute;
+	left: 346px;
+	top: 56px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem2 .editIcon .Vector {
+	position: absolute;
+	left: 3px;
+	top: 2.99749755859375px;
+	width: 75.01017252604166%;
+	height: 75.01042683919272%;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem2 .excluirIcon {
+	position: absolute;
+	left: 346px;
+	top: 20px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem2 .excluirIcon .Vector_1 {
+	position: absolute;
+	left: 2.25px;
+	top: 0px;
+	width: 81.25%;
+	height: 93.75%;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem2 .imageExerc {
+	position: absolute;
+	left: 9px;
+	top: 9px;
+	width: 93px;
+	height: 81px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 6px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem2 .ExercSubtitle {
+	position: absolute;
+	left: 118px;
+	top: 42px;
+	width: 106px;
+	height: 24px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 14.0625px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem2 .ExercTitle {
+	position: absolute;
+	left: 118px;
+	top: 16px;
+	width: 46px;
+	height: 13px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem1hover {
+	position: absolute;
+	left: 33px;
+	top: 132px;
+	width: 397px;
+	height: 110px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem1hover .Base_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 391px;
+	height: 100px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 6px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem1hover .editIcon_1 {
+	position: absolute;
+	left: 346px;
+	top: 56px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem1hover .editIcon_1 .Vector_2 {
+	position: absolute;
+	left: 3px;
+	top: 2.99749755859375px;
+	width: 75.01017252604166%;
+	height: 75.01042683919272%;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem1hover .excluirIcon_1 {
+	position: absolute;
+	left: 346px;
+	top: 20px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem1hover .excluirIcon_1 .Vector_3 {
+	position: absolute;
+	left: 2.25px;
+	top: 0px;
+	width: 81.25%;
+	height: 93.75%;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem1hover .ExercSubtitle_1 {
+	position: absolute;
+	left: 118px;
+	top: 42px;
+	width: 97px;
+	height: 24px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 14.0625px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem1hover .ExercTitle_1 {
+	position: absolute;
+	left: 118px;
+	top: 16px;
+	width: 61px;
+	height: 13px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercItem1hover .imageExerc_1 {
+	position: absolute;
+	left: 9px;
+	top: 9px;
+	width: 93px;
+	height: 81px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 6px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercField {
+	position: absolute;
+	left: 33px;
+	top: 30px;
+	width: 391px;
+	height: 70px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercField .inputfield {
+	position: absolute;
+	left: 0px;
+	top: 25px;
+	width: 391px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercField .hint {
+	position: absolute;
+	left: 41px;
+	top: 41px;
+	width: 133px;
+	height: 13px;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercField .searchIcon2 {
+	position: absolute;
+	left: 11px;
+	top: 38px;
+	width: 20px;
+	height: 20px;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercField .searchIcon2 .Vector_4 {
+	position: absolute;
+	left: 1.666015625px;
+	top: 1.6668701171875px;
+	width: 83.33740234375%;
+	height: 83.33511352539062%;
+}
+.EdiodePlano_EdiodePlano .SelectExercCard .ExercField .EXERCCIOS {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 136px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard {
+	position: absolute;
+	left: 32px;
+	top: 124px;
+	width: 427px;
+	height: 704px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .Base_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 427px;
+	height: 704px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .AtribuiField {
+	position: absolute;
+	left: 33px;
+	top: 435px;
+	width: 362px;
+	height: 231px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .AtribuiField .aluno3 {
+	position: absolute;
+	left: 0px;
+	top: 27px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .AtribuiField .aluno2 {
+	position: absolute;
+	left: 74px;
+	top: 26px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .AtribuiField .aluno1 {
+	position: absolute;
+	left: 148px;
+	top: 26px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .AtribuiField .excluirAtribuihover {
+	position: absolute;
+	left: 148px;
+	top: 26px;
+	width: 70px;
+	height: 70px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .AtribuiField .excluirAtribuihover .Base_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 70px;
+	height: 70px;
+	background: rgba(52,52,52,0.50);
+	border-radius: 50%;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .AtribuiField .excluirAtribuihover .excluirIcon_2 {
+	position: absolute;
+	left: 50.71428571428571%;
+	top: 50.71428571428571%;
+	transform: translate(-50%, -50%);
+	width: 25px;
+	height: 25px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .AtribuiField .excluirAtribuihover .excluirIcon_2 .Vector_5 {
+	position: absolute;
+	left: 2.5390625px;
+	top: 2.5390625px;
+	width: 79.6875%;
+	height: 79.6875%;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .AtribuiField .ATRIBUIRA {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 61px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .DescField {
+	position: absolute;
+	left: 33px;
+	top: 134px;
+	width: 362px;
+	height: 268px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .DescField .inputfield_1 {
+	position: absolute;
+	left: 0px;
+	top: 25px;
+	width: 362px;
+	height: 243px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(181.79375141859055,185.2130663394928,188.06250303983688,1);
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .DescField .value {
+	position: absolute;
+	left: 11px;
+	top: 41px;
+	width: 340px;
+	height: 78px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .DescField .DESCRICAO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 65px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .TitleField {
+	position: absolute;
+	left: 33px;
+	top: 30px;
+	width: 362px;
+	height: 71px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .TitleField .inputfield_2 {
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	width: 362px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .TitleField .value_1 {
+	position: absolute;
+	left: 11px;
+	top: 42px;
+	width: 99px;
+	height: 13px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .CriarPlanoCard .TitleField .TTULO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 37px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .CancelButton {
+	position: absolute;
+	left: 854px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.EdiodePlano_EdiodePlano .CancelButton .Base_5 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(255,255,255,0.60);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .CancelButton .Base_5:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(196, 187, 187, 0.6);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .CancelButton .CANCELAR {
+	position: absolute;
+	left: 21px;
+	top: 19px;
+	width: 59px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .ExcluirButton {
+	position: absolute;
+	left: 738px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.EdiodePlano_EdiodePlano .ExcluirButton .Base_6 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(243,81,59,1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .ExcluirButton .Base_6:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgb(189, 55, 37);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .ExcluirButton .EXCLUIR {
+	position: absolute;
+	left: 30px;
+	top: 19px;
+	width: 42px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .SalvarButton {
+	position: absolute;
+	left: 622px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.EdiodePlano_EdiodePlano .SalvarButton .Base_7 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .SalvarButton .Base_7:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(53, 161, 45, 1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .SalvarButton .SALVAR {
+	position: absolute;
+	left: 30px;
+	top: 19px;
+	width: 40px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodePlano_EdiodePlano .TitlePage {
+	position: absolute;
+	left: 32px;
+	top: 32px;
+	width: 466px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.EdiodePlano_EdiodePlano .SideBar {
+	position: absolute;
+	left: 1162px;
+	top: 112px;
+	width: 278px;
+	height: 912px;
+}
+.EdiodePlano_EdiodePlano .SideBar .Base_8 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 912px;
+	background: rgba(255,255,255,0.60);
+}
+.EdiodePlano_EdiodePlano .SideBar .AlunosTitle {
+	position: absolute;
+	left: 25px;
+	top: 16px;
+	width: 56px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList3 {
+	position: absolute;
+	left: 0px;
+	top: 238px;
+	width: 278px;
+	height: 90px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList3 .base {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList3 .aluno3_1 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList3 .optIcon {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList3 .optIcon .Vector_6 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList3 .spencer_admgmailcom {
+	position: absolute;
+	left: 94px;
+	top: 41px;
+	width: 133px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList3 .SamuelSpencer {
+	position: absolute;
+	left: 94px;
+	top: 21px;
+	width: 131px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList2 {
+	position: absolute;
+	left: 0px;
+	top: 148px;
+	width: 278px;
+	height: 90px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList2 .base_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList2 .aluno2_1 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList2 .optIcon_1 {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList2 .optIcon_1 .Vector_7 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList2 .framboeasa_kitgmailcom {
+	position: absolute;
+	left: 94px;
+	top: 41px;
+	width: 141px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList2 .KitLaframboise {
+	position: absolute;
+	left: 94px;
+	top: 21px;
+	width: 87px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList1 {
+	position: absolute;
+	left: 0px;
+	top: 58px;
+	width: 278px;
+	height: 90px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList1 .base_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList1 .hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	background: rgba(217,217,217,0.60);
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList1 .optIcon_2 {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList1 .optIcon_2 .Vector_8 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList1 .abgael23gmailcom {
+	position: absolute;
+	left: 94px;
+	top: 40px;
+	width: 111px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList1 .AbagaelEnno {
+	position: absolute;
+	left: 94px;
+	top: 22px;
+	width: 81px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodePlano_EdiodePlano .SideBar .alunosList1 .aluno1_1 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodePlano_EdiodePlano .MainNav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 120px;
+	height: 1024px;
+	background: rgba(41,41,41,1.00);
+	border: 1px solid rgba(255,255,255,1);
+}
+.EdiodePlano_EdiodePlano .MainNav .PlanoIcon {
+	position: absolute;
+	left: 35px;
+	top: 687px;
+	width: 50px;
+	height: 50px;
+}
+.EdiodePlano_EdiodePlano .MainNav .PlanoIcon .Vector_9 {
+	position: absolute;
+	left: 3px;
+	top: 8px;
+	width: 90%;
+	height: 67.5%;
+}
+.EdiodePlano_EdiodePlano .MainNav .ExercicioIcon {
+	position: absolute;
+	left: 35px;
+	top: 487px;
+	width: 50px;
+	height: 50px;
+}
+.EdiodePlano_EdiodePlano .MainNav .ExercicioIcon .Vector_10 {
+	position: absolute;
+	left: 0px;
+	top: 14.583343505859375px;
+	width: 100%;
+	height: 50.00006103515625%;
+}
+.EdiodePlano_EdiodePlano .MainNav .AlunoIcon {
+	position: absolute;
+	left: 40px;
+	top: 297px;
+	width: 40px;
+	height: 40px;
+}
+.EdiodePlano_EdiodePlano .MainNav .AlunoIcon .Vector_11 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.EdiodePlano_EdiodePlano .MainNav .Logo {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	width: 40px;
+	height: 50px;
+}
+.EdiodePlano_EdiodePlano .MainNav .Logo ._Path_ {
+	position: absolute;
+	left: -0.3177490234375px;
+	top: 15.722049713134766px;
+	width: 26.4261474609375px;
+	height: 26.426151275634766px;
+}
+.EdiodePlano_EdiodePlano .MainNav .Logo ._Path_3 {
+	position: absolute;
+	left: -14.1026611328125px;
+	top: -5.246006011962891px;
+	width: 60.9544677734375px;
+	height: 60.95444869995117px;
+}
+.EdiodePlano_EdiodePlano .MainNav .Logo ._Path_5 {
+	position: absolute;
+	left: -16px;
+	top: -6.000003814697266px;
+	width: 57.933349609375px;
+	height: 57.9332389831543px;
+}
+.EdiodePlano_EdiodePlano .MainNav .Indicator {
+	position: absolute;
+	left: 0px;
+	top: 664px;
+	width: 9px;
+	height: 96px;
+}
+.EdiodePlano_EdiodePlano .TopNav {
+	position: absolute;
+	left: 120px;
+	top: 0px;
+	width: 1320px;
+	height: 112px;
+	background: rgba(41,41,41,1.00);
+}
+.EdiodePlano_EdiodePlano .TopNav .perfilInstrutor {
+	position: absolute;
+	left: 1212px;
+	top: 27px;
+	width: 58px;
+	height: 58px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid rgba(255,255,255,1);
+	background-size: cover;
+}
+.EdiodePlano_EdiodePlano .TopNav .SearchBar {
+	position: absolute;
+	left: 42px;
+	top: 43px;
+	width: 628px;
+	height: 26px;
+}
+.EdiodePlano_EdiodePlano .TopNav .SearchBar .searchIcon {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 26px;
+	height: 26px;
+}
+.EdiodePlano_EdiodePlano .TopNav .SearchBar .searchIcon .Vector_12 {
+	position: absolute;
+	left: 2.1658935546875px;
+	top: 2.166942596435547px;
+	width: 83.33740234375%;
+	height: 83.33512819730319%;
+}

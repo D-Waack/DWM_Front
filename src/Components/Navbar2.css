@@ -1,0 +1,8 @@
+.nav-menu {
+    background-color: rgba(41,41,41,1.00);
+    border: 2px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 100%;
+    display: inline-block;
+}

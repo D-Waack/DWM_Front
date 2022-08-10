@@ -1,0 +1,1047 @@
+
+.EdiodeExerccio_EdiodeExerccio {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 74vw;
+	height: 100vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: rgba(192,251,187,1.00);
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard {
+	position: absolute;
+	left: 498px;
+	top: 120px;
+	width: 456px;
+	height: 704px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .Base {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 456px;
+	height: 704px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .equipItem1hover {
+	position: absolute;
+	left: 33px;
+	top: 132px;
+	width: 397px;
+	height: 110px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .equipItem1hover .Base_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 391px;
+	height: 100px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 6px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .equipItem1hover .editIcon {
+	position: absolute;
+	left: 346px;
+	top: 56px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .equipItem1hover .editIcon .Vector {
+	position: absolute;
+	left: 3px;
+	top: 2.99749755859375px;
+	width: 75.01017252604166%;
+	height: 75.01042683919272%;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .equipItem1hover .excluirIcon {
+	position: absolute;
+	left: 346px;
+	top: 20px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .equipItem1hover .excluirIcon .Vector_1 {
+	position: absolute;
+	left: 2.25px;
+	top: 0px;
+	width: 81.25%;
+	height: 93.75%;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .equipItem1hover .EquipTitle {
+	position: absolute;
+	left: 118px;
+	top: 43px;
+	width: 101px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .equipItem1hover .image {
+	position: absolute;
+	left: 9px;
+	top: 9px;
+	width: 93px;
+	height: 81px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 6px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .EquipField {
+	position: absolute;
+	left: 33px;
+	top: 30px;
+	width: 391px;
+	height: 70px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .EquipField .inputfield {
+	position: absolute;
+	left: 0px;
+	top: 8px;
+	width: 391px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .EquipField .hint {
+	position: absolute;
+	left: 42px;
+	top: 41px;
+	width: 231px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .EquipField .addEquipButton {
+	position: absolute;
+	left: 356px;
+	top: 34px;
+	width: 28px;
+	height: 28px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .EquipField .addEquipButton .base {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 28px;
+	height: 28px;
+	border-radius: 2px;
+	border: 1px solid rgba(106.00000128149986,221.00000202655792,98.00000175833702,1);
+	box-sizing: border-box;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .EquipField .addEquipButton .addIcon {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	width: 12px;
+	height: 12px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .EquipField .addEquipButton .addIcon .Vector_2 {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 79.16666666666666%;
+	height: 79.16666666666666%;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .EquipField .searchIcon2 {
+	position: absolute;
+	left: 11px;
+	top: 38px;
+	width: 20px;
+	height: 20px;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .EquipField .searchIcon2 .Vector_3 {
+	position: absolute;
+	left: 1.666015625px;
+	top: 1.6668701171875px;
+	width: 83.33740234375%;
+	height: 83.33511352539062%;
+}
+.EdiodeExerccio_EdiodeExerccio .SelectEquipCard .EquipField .EQUIPAMENTOS {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 156px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard {
+	position: absolute;
+	left: 32px;
+	top: 120px;
+	width: 427px;
+	height: 704px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .Base_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 427px;
+	height: 704px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField {
+	position: absolute;
+	left: 32px;
+	top: 427px;
+	width: 362px;
+	height: 118px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField .Video {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 144px;
+	height: 118px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField .Video .videoImage {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 144px;
+	height: 108px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField .Video .playIcon {
+	position: absolute;
+	left: 58px;
+	top: 44px;
+	width: 27.022216796875px;
+	height: 19px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField .Video .playIcon .Vector_4 {
+	position: absolute;
+	left: -0.000244140625px;
+	top: 0px;
+	width: 99.99819303777454%;
+	height: 99.60295024671053%;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField .Video .playIcon .Vector_5 {
+	position: absolute;
+	left: 10.8111572265625px;
+	top: 5.406982421875px;
+	width: 25.909579610238247%;
+	height: 42.68670333059211%;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField .linkButton {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 52px;
+	height: 53px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField .linkButton .Base_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 45px;
+	height: 45px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 4px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField .linkButton .linkIcon {
+	position: absolute;
+	left: 11px;
+	top: 11px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField .linkButton .linkIcon .Vector_6 {
+	position: absolute;
+	left: 2.760009765625px;
+	top: 2.76007080078125px;
+	width: 76.99635823567709%;
+	height: 76.99991861979166%;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .VideoField .linkButton .linkIcon .Vector_7 {
+	position: absolute;
+	left: 7.0489501953125px;
+	top: 7.04998779296875px;
+	width: 41.25417073567708%;
+	height: 41.25010172526042%;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .ExecField {
+	position: absolute;
+	left: 33px;
+	top: 286px;
+	width: 362px;
+	height: 103px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .ExecField .inputfield_1 {
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	width: 362px;
+	height: 78px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(181.79375141859055,185.2130663394928,188.06250303983688,1);
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .ExecField .hint_1 {
+	position: absolute;
+	left: 11px;
+	top: 42px;
+	width: 340px;
+	height: 39px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .ExecField .EXECUCAO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 62px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField {
+	position: absolute;
+	left: 33px;
+	top: 134px;
+	width: 362px;
+	height: 119px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .tagItem2 {
+	position: absolute;
+	left: 56px;
+	top: 79px;
+	width: 48px;
+	height: 20px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .tagItem2 .Base_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 48px;
+	height: 20px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 10px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .tagItem2 .Dorsal {
+	position: absolute;
+	left: 7px;
+	top: 4px;
+	width: 35px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(255,255,255,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .tagItem1 {
+	position: absolute;
+	left: 0px;
+	top: 79px;
+	width: 51px;
+	height: 20px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .tagItem1 .Base_5 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 51px;
+	height: 20px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 10px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .tagItem1 .Bceps {
+	position: absolute;
+	left: 7px;
+	top: 4px;
+	width: 37px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .inputfield_2 {
+	position: absolute;
+	left: 0px;
+	top: 24px;
+	width: 362px;
+	height: 45px;
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .hint_2 {
+	position: absolute;
+	left: 11px;
+	top: 40px;
+	width: 68px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .dropDown {
+	position: absolute;
+	left: 317px;
+	top: 24px;
+	width: 45px;
+	height: 45px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .dropDown .picker {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 45px;
+	height: 45px;
+	background: rgba(244,247,249,0.40);
+	border: 1px solid rgba(68.0100730061531,206.12500101327896,58.40209096670151,1);
+	box-sizing: border-box;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .dropDown .chevron {
+	position: absolute;
+	left: 19.0693359375px;
+	top: 20.930633544921875px;
+	width: 9.331298828125px;
+	height: 5.470001220703125px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .GrupoField .GRUPO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 104px;
+	height: 13px;
+	display: flex;
+	align-items: flex-end;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .TitleField {
+	position: absolute;
+	left: 33px;
+	top: 30px;
+	width: 362px;
+	height: 71px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .TitleField .inputfield_3 {
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	width: 362px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .TitleField .value {
+	position: absolute;
+	left: 11px;
+	top: 42px;
+	width: 73px;
+	height: 13px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .EditExercCard .TitleField .TTULO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 37px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .CancelButton {
+	position: absolute;
+	left: 854px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.EdiodeExerccio_EdiodeExerccio .CancelButton .Base_6 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(255,255,255,0.60);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .CancelButton .Base_6:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(196, 187, 187, 0.6);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .CancelButton .CANCELAR {
+	position: absolute;
+	left: 21px;
+	top: 19px;
+	width: 59px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .ExcluirButton {
+	position: absolute;
+	left: 738px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.EdiodeExerccio_EdiodeExerccio .ExcluirButton .Base_7 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(243,81,59,1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .ExcluirButton .Base_7:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgb(189, 55, 37);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .ExcluirButton .EXCLUIR {
+	position: absolute;
+	left: 30px;
+	top: 19px;
+	width: 42px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .SalvarButton {
+	position: absolute;
+	left: 622px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.EdiodeExerccio_EdiodeExerccio .SalvarButton .Base_8 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .SalvarButton .Base_8:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(53, 161, 45, 1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .SalvarButton .SALVAR {
+	position: absolute;
+	left: 30px;
+	top: 19px;
+	width: 40px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.EdiodeExerccio_EdiodeExerccio .TitlePage {
+	position: absolute;
+	left: 32px;
+	top: 32px;
+	width: 259px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar {
+	position: absolute;
+	left: 1162px;
+	top: 112px;
+	width: 278px;
+	height: 912px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .Base_9 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 912px;
+	background: rgba(255,255,255,0.60);
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .AlunosTitle {
+	position: absolute;
+	left: 25px;
+	top: 16px;
+	width: 56px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList3 {
+	position: absolute;
+	left: 0px;
+	top: 238px;
+	width: 278px;
+	height: 90px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList3 .base_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList3 .aluno3 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList3 .optIcon {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList3 .optIcon .Vector_8 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList3 .spencer_admgmailcom {
+	position: absolute;
+	left: 94px;
+	top: 41px;
+	width: 133px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList3 .SamuelSpencer {
+	position: absolute;
+	left: 94px;
+	top: 21px;
+	width: 131px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList2 {
+	position: absolute;
+	left: 0px;
+	top: 148px;
+	width: 278px;
+	height: 90px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList2 .base_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList2 .aluno2 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList2 .optIcon_1 {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList2 .optIcon_1 .Vector_9 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList2 .framboeasa_kitgmailcom {
+	position: absolute;
+	left: 94px;
+	top: 41px;
+	width: 141px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList2 .KitLaframboise {
+	position: absolute;
+	left: 94px;
+	top: 21px;
+	width: 87px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList1 {
+	position: absolute;
+	left: 0px;
+	top: 58px;
+	width: 278px;
+	height: 90px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList1 .base_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList1 .hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	background: rgba(217,217,217,0.60);
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList1 .optIcon_2 {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList1 .optIcon_2 .Vector_10 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList1 .abgael23gmailcom {
+	position: absolute;
+	left: 94px;
+	top: 40px;
+	width: 111px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList1 .AbagaelEnno {
+	position: absolute;
+	left: 94px;
+	top: 22px;
+	width: 81px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.EdiodeExerccio_EdiodeExerccio .SideBar .alunosList1 .aluno1 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 120px;
+	height: 1024px;
+	background: rgba(41,41,41,1.00);
+	border: 1px solid rgba(255,255,255,1);
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .PlanoIcon {
+	position: absolute;
+	left: 35px;
+	top: 687px;
+	width: 50px;
+	height: 50px;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .PlanoIcon .Vector_11 {
+	position: absolute;
+	left: 3px;
+	top: 8px;
+	width: 90%;
+	height: 67.5%;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .ExercicioIcon {
+	position: absolute;
+	left: 35px;
+	top: 487px;
+	width: 50px;
+	height: 50px;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .ExercicioIcon .Vector_12 {
+	position: absolute;
+	left: 0px;
+	top: 14.583343505859375px;
+	width: 100%;
+	height: 50.00006103515625%;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .AlunoIcon {
+	position: absolute;
+	left: 40px;
+	top: 297px;
+	width: 40px;
+	height: 40px;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .AlunoIcon .Vector_13 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .Logo {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	width: 40px;
+	height: 50px;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .Logo ._Path_ {
+	position: absolute;
+	left: -0.3177490234375px;
+	top: 15.722049713134766px;
+	width: 26.4261474609375px;
+	height: 26.426151275634766px;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .Logo ._Path_3 {
+	position: absolute;
+	left: -14.1026611328125px;
+	top: -5.246006011962891px;
+	width: 60.9544677734375px;
+	height: 60.95444869995117px;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .Logo ._Path_5 {
+	position: absolute;
+	left: -16px;
+	top: -6.000003814697266px;
+	width: 57.933349609375px;
+	height: 57.9332389831543px;
+}
+.EdiodeExerccio_EdiodeExerccio .MainNav .Indicator {
+	position: absolute;
+	left: 0px;
+	top: 466px;
+	width: 9px;
+	height: 96px;
+}
+.EdiodeExerccio_EdiodeExerccio .TopNav {
+	position: absolute;
+	left: 120px;
+	top: 0px;
+	width: 1320px;
+	height: 112px;
+	background: rgba(41,41,41,1.00);
+}
+.EdiodeExerccio_EdiodeExerccio .TopNav .perfilInstrutor {
+	position: absolute;
+	left: 1212px;
+	top: 27px;
+	width: 58px;
+	height: 58px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid rgba(255,255,255,1);
+	background-size: cover;
+}
+.EdiodeExerccio_EdiodeExerccio .TopNav .SearchBar {
+	position: absolute;
+	left: 42px;
+	top: 43px;
+	width: 628px;
+	height: 26px;
+}
+.EdiodeExerccio_EdiodeExerccio .TopNav .SearchBar .searchIcon {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 26px;
+	height: 26px;
+}
+.EdiodeExerccio_EdiodeExerccio .TopNav .SearchBar .searchIcon .Vector_14 {
+	position: absolute;
+	left: 2.1658935546875px;
+	top: 2.166942596435547px;
+	width: 83.33740234375%;
+	height: 83.33512819730319%;
+}

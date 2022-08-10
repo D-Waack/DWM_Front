@@ -1,0 +1,928 @@
+textarea
+{
+   resize: none;
+}
+.CadastrodePlano_CadastrodePlano {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 74vw;
+	height: 100vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: rgba(192,251,187,1.00);
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard {
+	position: absolute;
+	left: 498px;
+	top: 120px;
+	width: 456px;
+	height: 704px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .Base {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 456px;
+	height: 704px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem2 {
+	position: absolute;
+	left: 33px;
+	top: 242px;
+	width: 397px;
+	height: 110px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem2 .Base_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 391px;
+	height: 100px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 6px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem2 .editIcon {
+	position: absolute;
+	left: 346px;
+	top: 56px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem2 .editIcon .Vector {
+	position: absolute;
+	left: 3px;
+	top: 2.99749755859375px;
+	width: 75.01017252604166%;
+	height: 75.01042683919272%;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem2 .excluirIcon {
+	position: absolute;
+	left: 346px;
+	top: 20px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem2 .excluirIcon .Vector_1 {
+	position: absolute;
+	left: 2.25px;
+	top: 0px;
+	width: 81.25%;
+	height: 93.75%;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem2 .imageExerc {
+	position: absolute;
+	left: 9px;
+	top: 9px;
+	width: 93px;
+	height: 81px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 6px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem2 .ExeSubtitle {
+	position: absolute;
+	left: 118px;
+	top: 42px;
+	width: 97px;
+	height: 24px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 14.0625px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem2 .ExeTitle {
+	position: absolute;
+	left: 118px;
+	top: 16px;
+	width: 66px;
+	height: 13px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem1hover {
+	position: absolute;
+	left: 33px;
+	top: 132px;
+	width: 397px;
+	height: 110px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem1hover .Base_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 391px;
+	height: 100px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 6px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem1hover .editIcon_1 {
+	position: absolute;
+	left: 346px;
+	top: 56px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem1hover .editIcon_1 .Vector_2 {
+	position: absolute;
+	left: 3px;
+	top: 2.99749755859375px;
+	width: 75.01017252604166%;
+	height: 75.01042683919272%;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem1hover .excluirIcon_1 {
+	position: absolute;
+	left: 346px;
+	top: 20px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem1hover .excluirIcon_1 .Vector_3 {
+	position: absolute;
+	left: 2.25px;
+	top: 0px;
+	width: 81.25%;
+	height: 93.75%;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem1hover .ExercSubtitle {
+	position: absolute;
+	left: 118px;
+	top: 42px;
+	width: 97px;
+	height: 24px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 14.0625px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem1hover .ExercTitle {
+	position: absolute;
+	left: 118px;
+	top: 16px;
+	width: 61px;
+	height: 13px;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercItem1hover .imageExerc_1 {
+	position: absolute;
+	left: 9px;
+	top: 9px;
+	width: 93px;
+	height: 81px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 6px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercField {
+	position: absolute;
+	left: 33px;
+	top: 30px;
+	width: 391px;
+	height: 70px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercField .inputfield {
+	position: absolute;
+	left: 0px;
+	top: 25px;
+	width: 391px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercField .hint {
+	position: absolute;
+	left: 42px;
+	top: 41px;
+	width: 133px;
+	height: 13px;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercField .searchIcon2 {
+	position: absolute;
+	left: 11px;
+	top: 38px;
+	width: 20px;
+	height: 20px;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercField .searchIcon2 .Vector_4 {
+	position: absolute;
+	left: 1.66607666015625px;
+	top: 1.6668701171875px;
+	width: 83.33709716796875%;
+	height: 83.33511352539062%;
+}
+.CadastrodePlano_CadastrodePlano .SelectExercCard .ExercField .EXERCCIOS {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 136px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard {
+	position: absolute;
+	left: 32px;
+	top: 124px;
+	width: 427px;
+	height: 704px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .Base_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 427px;
+	height: 704px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .AtribuiField {
+	position: absolute;
+	left: 33px;
+	top: 435px;
+	width: 362px;
+	height: 231px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .AtribuiField .aluno3 {
+	position: absolute;
+	left: 0px;
+	top: 27px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .AtribuiField .aluno2 {
+	position: absolute;
+	left: 74px;
+	top: 26px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .AtribuiField .aluno1 {
+	position: absolute;
+	left: 148px;
+	top: 26px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .AtribuiField .excluirAtribuihover {
+	position: absolute;
+	left: 148px;
+	top: 26px;
+	width: 70px;
+	height: 70px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .AtribuiField .excluirAtribuihover .Base_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 70px;
+	height: 70px;
+	background: rgba(52,52,52,0.50);
+	border-radius: 50%;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .AtribuiField .excluirAtribuihover .excluirIcon_2 {
+	position: absolute;
+	left: 50.71428571428571%;
+	top: 50.71428571428571%;
+	transform: translate(-50%, -50%);
+	width: 25px;
+	height: 25px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .AtribuiField .excluirAtribuihover .excluirIcon_2 .Vector_5 {
+	position: absolute;
+	left: 2.5390625px;
+	top: 2.5390625px;
+	width: 79.6876220703125%;
+	height: 79.6875%;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .AtribuiField .ATRIBUIRA {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 61px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .DescField {
+	position: absolute;
+	left: 33px;
+	top: 134px;
+	width: 362px;
+	height: 268px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .DescField .inputfield_1 {
+	position: absolute;
+	left: 0px;
+	top: 25px;
+	width: 362px;
+	height: 243px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(181.79375141859055,185.2130663394928,188.06250303983688,1);
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .DescField .hint_1 {
+	position: absolute;
+	left: 11px;
+	top: 41px;
+	width: 340px;
+	height: 26px;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .DescField .DESCRICAO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 65px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .TitleField {
+	position: absolute;
+	left: 33px;
+	top: 30px;
+	width: 362px;
+	height: 71px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .TitleField .inputfield_2 {
+	position: absolute;
+	left: 0px;
+	top: 26px;
+	width: 362px;
+	height: 45px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 4px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .TitleField .hint_2 {
+	position: absolute;
+	left: 11px;
+	top: 41px;
+	width: 139px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.50);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CriarPlanoCard .TitleField .TTULO {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 37px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CancelButton {
+	position: absolute;
+	left: 854px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.CadastrodePlano_CadastrodePlano .CancelButton .Base_5 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(255,255,255,0.60);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CancelButton .Base_5:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(196, 187, 187, 0.6);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CancelButton .CANCELAR {
+	position: absolute;
+	left: 21px;
+	top: 19px;
+	width: 59px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CriarButton {
+	position: absolute;
+	left: 738px;
+	top: 32px;
+	width: 100px;
+	height: 50px;
+}
+.CadastrodePlano_CadastrodePlano .CriarButton .Base_6 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(68,206,58,1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CriarButton .Base_6:hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 50px;
+	background: rgba(53, 161, 45, 1.00);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .CriarButton .CRIAR {
+	position: absolute;
+	left: 34px;
+	top: 19px;
+	width: 32px;
+	height: 13px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 15.234375px;
+}
+.CadastrodePlano_CadastrodePlano .TitlePage {
+	position: absolute;
+	left: 32px;
+	top: 32px;
+	width: 456px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar {
+	position: absolute;
+	left: 1162px;
+	top: 112px;
+	width: 278px;
+	height: 912px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .Base_7 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 912px;
+	background: rgba(255,255,255,0.60);
+}
+.CadastrodePlano_CadastrodePlano .SideBar .AlunosTitle {
+	position: absolute;
+	left: 25px;
+	top: 16px;
+	width: 56px;
+	height: 26px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList3 {
+	position: absolute;
+	left: 0px;
+	top: 238px;
+	width: 278px;
+	height: 90px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList3 .base {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList3 .aluno3_1 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList3 .optIcon {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList3 .optIcon .Vector_6 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList3 .spencer_admgmailcom {
+	position: absolute;
+	left: 94px;
+	top: 41px;
+	width: 133px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList3 .SamuelSpencer {
+	position: absolute;
+	left: 94px;
+	top: 21px;
+	width: 131px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList2 {
+	position: absolute;
+	left: 0px;
+	top: 148px;
+	width: 278px;
+	height: 90px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList2 .base_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList2 .aluno2_1 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList2 .optIcon_1 {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList2 .optIcon_1 .Vector_7 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList2 .framboeasa_kitgmailcom {
+	position: absolute;
+	left: 94px;
+	top: 41px;
+	width: 141px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList2 .KitLaframboise {
+	position: absolute;
+	left: 94px;
+	top: 21px;
+	width: 87px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList1 {
+	position: absolute;
+	left: 0px;
+	top: 58px;
+	width: 278px;
+	height: 90px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList1 .base_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	border: 1px solid rgba(182.00000435113907,185.00000417232513,188.0000039935112,1);
+	box-sizing: border-box;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList1 .hover {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 278px;
+	height: 90px;
+	background: rgba(217,217,217,0.60);
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList1 .optIcon_2 {
+	position: absolute;
+	left: 241px;
+	top: 33px;
+	width: 24px;
+	height: 24px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList1 .optIcon_2 .Vector_8 {
+	position: absolute;
+	left: 10px;
+	top: 4px;
+	width: 16.666666666666664%;
+	height: 66.66666666666666%;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList1 .abgael23gmailcom {
+	position: absolute;
+	left: 94px;
+	top: 40px;
+	width: 111px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,0.60);
+	font-family: Sulphur Point;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList1 .AbagaelEnno {
+	position: absolute;
+	left: 94px;
+	top: 22px;
+	width: 81px;
+	height: 28px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Sulphur Point;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 28px;
+}
+.CadastrodePlano_CadastrodePlano .SideBar .alunosList1 .aluno1_1 {
+	position: absolute;
+	left: 13px;
+	top: 10px;
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.CadastrodePlano_CadastrodePlano .MainNav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 120px;
+	height: 1024px;
+	background: rgba(41,41,41,1.00);
+	border: 1px solid rgba(255,255,255,1);
+}
+.CadastrodePlano_CadastrodePlano .MainNav .PlanoIcon {
+	position: absolute;
+	left: 35px;
+	top: 687px;
+	width: 50px;
+	height: 50px;
+}
+.CadastrodePlano_CadastrodePlano .MainNav .PlanoIcon .Vector_9 {
+	position: absolute;
+	left: 3px;
+	top: 8px;
+	width: 90%;
+	height: 67.5%;
+}
+.CadastrodePlano_CadastrodePlano .MainNav .ExercicioIcon {
+	position: absolute;
+	left: 35px;
+	top: 487px;
+	width: 50px;
+	height: 50px;
+}
+.CadastrodePlano_CadastrodePlano .MainNav .ExercicioIcon .Vector_10 {
+	position: absolute;
+	left: 0.000041961669921875px;
+	top: 14.583343505859375px;
+	width: 100.00000762939453%;
+	height: 50.00006103515625%;
+}
+.CadastrodePlano_CadastrodePlano .MainNav .AlunoIcon {
+	position: absolute;
+	left: 40px;
+	top: 297px;
+	width: 40px;
+	height: 40px;
+}
+.CadastrodePlano_CadastrodePlano .MainNav .AlunoIcon .Vector_11 {
+	position: absolute;
+	left: -0.0000457763671875px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.CadastrodePlano_CadastrodePlano .MainNav .Logo {
+	position: absolute;
+	left: 40px;
+	top: 40px;
+	width: 40px;
+	height: 50px;
+}
+.CadastrodePlano_CadastrodePlano .MainNav .Logo ._Path_ {
+	position: absolute;
+	left: -0.3177604675292969px;
+	top: 15.722049713134766px;
+	width: 26.426151275634766px;
+	height: 26.426151275634766px;
+}
+.CadastrodePlano_CadastrodePlano .MainNav .Logo ._Path_3 {
+	position: absolute;
+	left: -14.10269546508789px;
+	top: -5.246006011962891px;
+	width: 60.95444869995117px;
+	height: 60.95444869995117px;
+}
+.CadastrodePlano_CadastrodePlano .MainNav .Logo ._Path_5 {
+	position: absolute;
+	left: -15.999946594238281px;
+	top: -6.000003814697266px;
+	width: 57.93323516845703px;
+	height: 57.9332389831543px;
+}
+.CadastrodePlano_CadastrodePlano .MainNav .Indicator {
+	position: absolute;
+	left: 0px;
+	top: 664px;
+	width: 9px;
+	height: 96px;
+}
+.CadastrodePlano_CadastrodePlano .TopNav {
+	position: absolute;
+	left: 120px;
+	top: 0px;
+	width: 1320px;
+	height: 112px;
+	background: rgba(41,41,41,1.00);
+}
+.CadastrodePlano_CadastrodePlano .TopNav .perfilInstrutor {
+	position: absolute;
+	left: 1212px;
+	top: 27px;
+	width: 58px;
+	height: 58px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid rgba(255,255,255,1);
+	background-size: cover;
+}
+.CadastrodePlano_CadastrodePlano .TopNav .SearchBar {
+	position: absolute;
+	left: 42px;
+	top: 43px;
+	width: 628px;
+	height: 26px;
+}
+.CadastrodePlano_CadastrodePlano .TopNav .SearchBar .searchIcon {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 26px;
+	height: 26px;
+}
+.CadastrodePlano_CadastrodePlano .TopNav .SearchBar .searchIcon .Vector_12 {
+	position: absolute;
+	left: 2.165863037109375px;
+	top: 2.166942596435547px;
+	width: 83.33722628079929%;
+	height: 83.33512819730319%;
+}
