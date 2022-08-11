@@ -13,7 +13,7 @@ import { Messages } from 'primereact/messages';
 import axios from 'axios'
 
 const api = axios.create({
-	baseURL: 'http://localhost:3001/plano/'
+	baseURL: 'http://localhost:3030/plano/'
 	
 });
 
