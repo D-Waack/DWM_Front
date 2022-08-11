@@ -1,5 +1,6 @@
 import React from 'react'
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './EdiodePlano.css'
 import ImgAsset from '../../public'
 
@@ -12,11 +13,140 @@ import "primeicons/primeicons.css";                                //icons
 import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from 'primereact/inputtextarea';
+import { Messages } from 'primereact/messages';
 // Primereact imports end
 
-export default function EdiodePlano ({name, description}) {
+/* Axios */
+import axios from 'axios'
+
+const api = axios.create({
+	baseURL: 'http://localhost:3001/plano/'
+	
+});
+
+export default function EdicaodePlano ({id_, name, description, exercises}) {
+	const [planos, setPlanos] = useState([])
+	const [id, setId] = useState(id_)
+	const [old_nome] = useState(name);
     const [nome, setNome] = useState(name);
     const [descricao, setDescricao] = useState(description);
+	const [exercicios, setExercicios] = useState(exercises);
+
+	// Mensagens
+	const msgs = useRef(null);
+
+	// Use effect
+	useEffect(()=>{
+		getPlanos();
+	}, []) // <-- empty dependency array
+
+	// Funções do AXIOS
+	const getPlanos = async () => {
+		var data = await api.get('/').then(({data}) => data).catch((exception) => {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Função "get" no back-end falhou. O back-end está rodando? Veja console.', sticky: false },
+			]);
+			console.log(exception);
+		});
+		setPlanos(data)
+	};
+
+	const updatePlano = async () => {
+		var fail_flag = false;
+		const gruposFormatted = []
+		var dados = JSON.stringify({nome: nome, lista_exercicio: exercicios, descricao:descricao, instrutor:"62e1b3e34308e76f177b4aba"});
+		const customConfig = {
+			headers: {
+			'Content-Type': 'application/json'
+			}
+		};
+		var res = await api.put('/' + id + "/", dados, customConfig).catch((error) =>
+		{
+			console.log(error.config);
+			addMessages(3);
+			fail_flag = true;
+		});
+		if(!fail_flag){
+			getPlanos();
+			addMessages(0);
+		}
+	}
+
+	const deletePlano = async () => {
+		var fail_flag = false;
+		
+		const customConfig = {
+			headers: {
+			'Content-Type': 'application/json'
+			}
+		};
+		var dados = JSON.stringify({nome: nome, lista_exercicio: exercicios, descricao:descricao, instrutor:"62e1b3e34308e76f177b4aba"});
+		var res = await api.delete('/' + id + "/", dados, customConfig).catch((error) =>
+		{
+			console.log(error.config);
+			addMessages(3);
+			fail_flag = true;
+		});
+		if(!fail_flag){
+			getPlanos();
+			addMessages(4);
+		}
+	}
+
+	const addMessages = (form_status) => {
+		if (form_status === 0){
+			msgs.current.show([
+				{ severity: 'success', detail: 'Plano atualizado.', sticky: true },
+			]);
+		}
+		else if (form_status === 1) {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Dados necessários não foram inseridos.', sticky: false },
+			]);
+		}
+		else if (form_status ===2) {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Plano com este nome já existe.', sticky: false },
+			]);
+		}
+		else if (form_status === 3) {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Falha na conexão com back-end.', sticky: false },
+			]);
+		}
+		else if (form_status === 4) {
+			msgs.current.show([
+				{ severity: 'success', detail: 'Plano deletado.', sticky: false },
+			]);
+		}
+		else {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Erro!', sticky: false },
+			]);
+		}
+	}
+
+	const onClickDeletar = () => {
+		deletePlano();
+	}
+
+	const onClickSalvar = () => {
+		var form_status = 1;
+		var found_duplicate = false;
+		if(nome != ""){
+			for (var i=0; i<exercicios.length; i++) {
+				if (nome === exercicios[i].nome && nome != old_nome){
+					form_status = 2 // Exercicio ja existe
+					found_duplicate = true
+				}
+			}
+			if(!found_duplicate) {
+				updatePlano();
+				return;
+			}
+		}
+		addMessages(form_status);
+	}
 
     // Funções
     const clickerFunction = () => console.log('hi');
@@ -25,36 +155,9 @@ export default function EdiodePlano ({name, description}) {
 		<div className='EdiodePlano_EdiodePlano'>
 			<div className='SelectExercCard'>
 				<div className='Base'/>
-				<div className='ExercItem2'>
-					<div className='Base_1'/>
-					<div className='editIcon'>
-						<img alt= '' className='Vector' src = {ImgAsset.EdiodePlano_Vector} />
-					</div>
-					<div className='excluirIcon'>
-						<img alt= '' className='Vector_1' src = {ImgAsset.EdiodePlano_Vector_1} />
-					</div>
-					<img alt= '' className='imageExerc' src = {ImgAsset.EdiodePlano_imageExerc} />
-					<span className='ExercSubtitle'>Abdômen, Deltóides<br/>Sem equipamento</span>
-					<span className='ExercTitle'>Prancha</span>
-				</div>
-				<div className='ExercItem1hover'>
-					<div className='Base_2'/>
-					<div className='editIcon_1'>
-						<img alt= '' className='Vector_2' src = {ImgAsset.EdiodePlano_Vector_2} />
-					</div>
-					<div className='excluirIcon_1'>
-						<img alt= '' className='Vector_3' src = {ImgAsset.EdiodePlano_Vector_3} />
-					</div>
-					<span className='ExercSubtitle_1'>Abdômen<br/>Sem equipamento</span>
-					<span className='ExercTitle_1'>Abdominal</span>
-					<img alt= '' className='imageExerc_1' src = {ImgAsset.ListagemdePlano_imageExerc_1} />
-				</div>
 				<div className='ExercField'>
 					<div className='inputfield'/>
-					<span className='hint'>Busque por exercícios...</span>
-					<div className='searchIcon2'>
-						<img alt= '' className='Vector_4' src = {ImgAsset.EdiodePlano_Vector_4} />
-					</div>
+					<InputText className ='inputfield' value={exercicios} onChange={(e) => setExercicios(e.target.value)} placeholder="Escolha Exercicios..." />
 					<span className='EXERCCIOS'>SELECIONAR EXERCÍCIOS</span>
 				</div>
 			</div>
@@ -80,16 +183,19 @@ export default function EdiodePlano ({name, description}) {
 				</div>
 			</div>
 			<div className='CancelButton'>
+			<Messages style={{zIndex:"2"}}ref={msgs} />
 				<div className='Base_5'/>
-                <Button label="CANCELAR" className='Base_5' onClick={clickerFunction}/>
+				<Link to="/">
+                	<Button label="CANCELAR" className='Base_5'/>
+				</Link>
 			</div>
 			<div className='ExcluirButton'>
-                <Button label="EXCLUIR" className='Base_6' onClick={clickerFunction}/>
+                <Button label="EXCLUIR" className='Base_6' onClick={onClickDeletar}/>
 			</div>
 			<div className='SalvarButton'>
-				<Button label="SALVAR" className='Base_7' onClick={clickerFunction}/>
+				<Button label="SALVAR" className='Base_7' onClick={onClickSalvar}/>
 			</div>
-			<span className='TitlePage'>Treino só Barriga</span>
+			<span className='TitlePage'>Edição de Treino</span>
 		</div>
 	)
 }

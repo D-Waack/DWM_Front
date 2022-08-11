@@ -3,16 +3,10 @@ import {Link} from 'react-router-dom'
 export default function HomePage () {
     return (
 	<div>
-		<h2>Criações</h2>
-		<Link to='/CriarExercicio'><div>Criação de Exercício</div></Link>
-		<Link to='/CadastrarAluno'><div>Cadastro de Aluno</div></Link>
-		<Link to='/CriarPlano'><div>Criação de Plano</div></Link>
-
-		<h2>Edições</h2>
-		<Link to='/EditarExercicio'><div>Edição de Exercício</div></Link>
-		<Link to='/EditarAluno'><div>Edição de Aluno</div></Link>
-		<Link to='/EditarPlano'><div>Edição de Plano</div></Link>
-
+		<h2>Listagens</h2>
+		<Link to='/IndexAlunos'><div>Listagem de Alunos</div></Link>
+		<Link to='/IndexExercicios'><div>Listagem de Exercícios</div></Link>
+		<Link to='/IndexPlanos'><div>Listagem de Planos</div></Link>
 	</div>
 	)
 }

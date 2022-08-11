@@ -13,8 +13,6 @@ export default function CriarExercicio() {
             <div className="nav"><Navgrid/></div>
             <div className="rightbar"><AlunoBar/></div>
             <div className="content"><CadastrodeExerccio/></div>
-            {//<div className="content">Content</div>
-}
         </div>
     )
 }

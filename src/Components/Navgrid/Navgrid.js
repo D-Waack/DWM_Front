@@ -15,19 +15,19 @@ export default function Navgrid() {
         },
         { // aluno
             content:
-            <Link to="/CadastrarAluno">
+            <Link to="/IndexAlunos">
                 <img alt='aluno icone' className='' src = {ImgAsset.CadastrodeExerccio_Vector_13} />
             </Link>,
         },
         { // exercicio
             content:
-            <Link to="/CriarExercicio">
+            <Link to="/IndexExercicios">
                 <img alt='exercicio icone' className='' src = {ImgAsset.CadastrodeExerccio_Vector_12} />
             </Link>,
         },
         { // plano
             content:
-            <Link to="/CriarPlano">
+            <Link to="/IndexPlanos">
                 <img alt='plano icone' className='' src = {ImgAsset.CadastrodeExerccio_Vector_11} />
             </Link>,
         }
