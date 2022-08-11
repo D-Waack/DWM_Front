@@ -5,14 +5,14 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomePage from '../Components/index';
 
 // Criações
-import CriarExercicio from '../Components/CriarExercicio';
-import CadastrarAluno from '../Components/CadastrarAluno';
-import CriarPlano from '../Components/CriarPlano';
+import CriarExercicio from '../Components/CriarExercicio/CriarExercicio';
+import CadastrarAluno from '../Components/CadastroAluno/CadastrarAluno';
+import CriarPlano from '../Components/CriarPlano/CriarPlano';
 
 // Edições
-import EditarExercicio from '../Components/EditarExercicio';
-import EditarAluno from '../Components/EditarAluno';
-import EditarPlano from '../Components/EditarPlano';
+import EditarExercicio from '../Components/EditExercicio/EditarExercicio';
+import EditarAluno from '../Components/EditAluno/EditarAluno';
+import EditarPlano from '../Components/EditPlano/EditarPlano';
 
 
 const RouterDOM = () => {
