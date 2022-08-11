@@ -1,5 +1,6 @@
 import React from 'react'
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './EdiodeExerccio.css'
 import ImgAsset from '../../public'
 
@@ -13,15 +14,93 @@ import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
 import { InputTextarea } from 'primereact/inputtextarea';
 import { Dropdown } from 'primereact/dropdown';
+import { Messages } from 'primereact/messages';
 // Primereact imports end
 
-export default function EdiodeExerccio ( {name, description, groups, equipment} ) {
+
+/* Axios */
+import axios from 'axios'
+
+const api = axios.create({
+	baseURL: 'http://localhost:3030/exercicio/'
+	
+});
+
+export default function EdiodeExerccio ( {id_, name, description, groups, equipment} ) {
     const [exercicios, setExercicios] = useState([])
+	const [id] = useState(id_);
+	const [old_nome, setOldNome] = useState(name);
     const [nome, setNome] = useState(name);
 	const [descricao, setDescricao] = useState(description);
 	const [equipamento, setEquipamento] = useState(equipment);
 	const [grupos, setGrupos] = useState(groups);
 	const grupoSelecionado = useState(null);
+
+	// Mensagens
+	const msgs = useRef(null);
+
+	// Use effect
+	useEffect(()=>{
+		getExercicios();
+	}, []) // <-- empty dependency array
+
+	// Funções do AXIOS
+	const getExercicios = async () => {
+		var data = await api.get('/').then(({data}) => data).catch((exception) => {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Função "get" no back-end falhou. O back-end está rodando? Veja console.', sticky: false },
+			]);
+			console.log(exception);
+		});
+		setExercicios(data)
+	};
+	const updateExercicio = async () => {
+		var fail_flag = false;
+		const gruposFormatted = []
+		for (var i=0; i<grupos.length; i++) {
+			if (grupos[i] === null)
+				grupos[i] = ''
+			if (grupos[i].name != '')
+				gruposFormatted.push(grupos[i]);
+		}
+		var dados = JSON.stringify({nome: nome, execucao: descricao, grupoMuscular:gruposFormatted, equipamento:equipamento, descricaoVideo:""});
+		const customConfig = {
+			headers: {
+			'Content-Type': 'application/json'
+			}
+		};
+		var res = await api.put('/' + id + "/", dados, customConfig).catch((error) =>
+		{
+			console.log(error.config);
+			addMessages(3);
+			fail_flag = true;
+		});
+		if(!fail_flag){
+			getExercicios();
+			addMessages(0);
+		}
+	}
+
+	const deleteExercicio = async () => {
+		var fail_flag = false;
+		
+		const customConfig = {
+			headers: {
+			'Content-Type': 'application/json'
+			}
+		};
+		var dados = JSON.stringify({nome: nome, execucao: descricao, grupoMuscular:grupos, equipamento:equipamento, descricaoVideo:""});
+		var res = await api.delete('/' + id + "/", dados, customConfig).catch((error) =>
+		{
+			console.log(error.config);
+			addMessages(3);
+			fail_flag = true;
+		});
+		if(!fail_flag){
+			getExercicios();
+			addMessages(4);
+		}
+	}
 
 	//Funções
 	const clickerFunction = () => console.log('hi');
@@ -47,6 +126,61 @@ export default function EdiodeExerccio ( {name, description, groups, equipment} 
 				return
 		}
 		setGrupos([...grupos, e.value])
+	}
+
+	const addMessages = (form_status) => {
+		if (form_status === 0){
+			msgs.current.show([
+				{ severity: 'success', detail: 'Exercício atualizado.', sticky: true },
+			]);
+		}
+		else if (form_status === 1) {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Dados necessários não foram inseridos.', sticky: false },
+			]);
+		}
+		else if (form_status ===2) {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Exercício com este nome já existe.', sticky: false },
+			]);
+		}
+		else if (form_status === 3) {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Falha na conexão com back-end.', sticky: false },
+			]);
+		}
+		else if (form_status === 4) {
+			msgs.current.show([
+				{ severity: 'success', detail: 'Exercício deletado.', sticky: false },
+			]);
+		}
+		else {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Erro!', sticky: false },
+			]);
+		}
+	}
+
+	const onClickSalvar = () => {
+		var form_status = 1;
+		var found_duplicate = false;
+		if(nome != "" && descricao!= "" && grupos!= []){
+			for (var i=0; i<exercicios.length; i++) {
+				if (nome === exercicios[i].nome && nome != old_nome){
+					form_status = 2 // Exercicio ja existe
+					found_duplicate = true
+				}
+			}
+			if(!found_duplicate) {
+				updateExercicio();
+				return;
+			}
+		}
+		addMessages(form_status);
+	}
+
+	const onClickDeletar = () => {
+		deleteExercicio();
 	}
 
 	return (
@@ -104,16 +238,15 @@ export default function EdiodeExerccio ( {name, description, groups, equipment} 
 					<span className='EXECUCAO'>EXECUÇÃO</span>
 				</div>
 				<div className='GrupoField'>
-					<div className='tagItem2'>
-						<div className='Base_4'/>
-						<span className='Dorsal'>Dorsal</span>
-					</div>
 					<div className='tagItem1'>
-						<div className='Base_5'/>
-						<span className='Bceps'>Bíceps</span>
+					{ grupos.map((grupo, index) => (
+								<div key={index}>
+									<div className={'tagger' + (index + 1)}>
+										<span className={'grupo' + (index + 1)}>{grupo.name}</span>
+									</div>
+								</div>
+						))}
 					</div>
-					<div className='inputfield_2'/>
-					<span className='hint_2'>Seleceione...</span>
 					<Dropdown className ="inputfield_2" value={grupoSelecionado} options={gpsMuscular} onChange={onGrupoSelect} optionLabel="name" placeholder="Selecione..." />
 					<span className='GRUPO'>GRUPO MUSCULAR</span>
 				</div>
@@ -124,14 +257,17 @@ export default function EdiodeExerccio ( {name, description, groups, equipment} 
 				</div>
 			</div>
 			<div className='CancelButton'>
-				<Button label="EXCLUIR" className='Base_6' onClick={clickerFunction}/>
+				<Link to="/">
+					<Button label="CANCELAR" className='Base_6'/>
+				</Link>
 			</div>
 			<div className='ExcluirButton'>
-				<Button label="EXCLUIR" className='Base_7' onClick={clickerFunction}/>
+				<Button label="EXCLUIR" className='Base_7' onClick={onClickDeletar}/>
 			</div>
 			<div className='SalvarButton'>
-                <Button label="SALVAR" className='Base_8' onClick={clickerFunction}/>
+                <Button label="SALVAR" className='Base_8' onClick={onClickSalvar}/>
 			</div>
+			<Messages style={{zIndex:"2"}}ref={msgs} />
 			<span className='TitlePage'>Edição de Exercício</span>
 		</div>
 	)

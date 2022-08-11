@@ -1,5 +1,6 @@
 import React from 'react'
-import { useState, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import {Link} from 'react-router-dom'
 import './CadastrodeAluno.css'
 import ImgAsset from '../../public'
 
@@ -15,7 +16,17 @@ import { Password } from 'primereact/password';
 import { Messages } from 'primereact/messages';
 // Primereact imports end
 
+/* Axios */
+import axios from 'axios'
+
+const api = axios.create({
+	baseURL: 'http://localhost:3030/aluno/'
+	
+});
+
 export default function CadastrodeAluno () {
+	// Valores
+	const [alunos, setAlunos] = useState([]);
 	const [nome, setNome] = useState("");
 	const [nomeUsuario, setNomeUsuario] = useState("");
 	const [email, setEmail] = useState("");
@@ -24,24 +35,89 @@ export default function CadastrodeAluno () {
 	// Mensagens
 	const msgs = useRef(null);
 
-	// Funções
-	const onClickConfirmar = (e) => {
-		addMessages(0);
+	// Use effect
+	useEffect(()=>{
+		getAlunos();
+	}, []) // <-- empty dependency array
+
+	// Funções do AXIOS
+	const getAlunos = async () => {
+		var data = await api.get('/').then(({data}) => data).catch((exception) => {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Função "get" no back-end falhou. O back-end está rodando? Veja console.', sticky: false },
+			]);
+			console.log(exception);
+		});
+		setAlunos(data)
+	};
+	const createAluno = async () => {
+		var fail_flag = false;
+		var dados = JSON.stringify({nome: nome, email: email, username:nomeUsuario, senha:senha, instrutor:"62e1b3e34308e76f177b4aba"});
+		console.log(dados);
+		const customConfig = {
+			headers: {
+			'Content-Type': 'application/json'
+			}
+		};
+		var res = await api.post('/', dados, customConfig).catch((error) =>
+		{
+			console.log(error.config);
+			addMessages(3);
+			fail_flag = true;
+		});
+		if(!fail_flag){
+			getAlunos();
+			addMessages(0);
+		}
 	}
 
-	const onClickCancelar = (e) => {
-		console.log("cancelar!")
+
+	// Funções
+	const onClickConfirmar = (e) => {
+		var form_status = 1;
+		var found_duplicate = false;
+		if(nome !== "" && email!=="" && nomeUsuario!== "" && senha!=""){
+			for (var i=0; i<alunos.length; i++) {
+				if (email === alunos[i].email || nomeUsuario === alunos[i].username){
+					form_status = 2 // Nome ja existe
+					found_duplicate = true
+				}
+			}
+			if(!found_duplicate) {
+				createAluno();
+				return;
+			}
+		}
+		else {
+			form_status = 1; // Valores faltando
+		}
+		addMessages(form_status);
 	}
 
 	const addMessages = (form_status) => {
 		if (form_status === 0){
 			msgs.current.show([
-				{ severity: 'success', detail: 'Aluno cadastrado.', sticky: true },
+				{ severity: 'success', detail: 'Novo aluno cadastrado.', sticky: true },
 			]);
 		}
 		else if (form_status === 1) {
 			msgs.current.show([
 				{ severity: 'error', detail: 'Dados necessários não foram inseridos.', sticky: false },
+			]);
+		}
+		else if (form_status ===2) {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Aluno com este nome de usuário ou e-mail já existe.', sticky: false },
+			]);
+		}
+		else if (form_status === 3) {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Falha na conexão com back-end.', sticky: false },
+			]);
+		}
+		else {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Erro!', sticky: false },
 			]);
 		}
 	}
@@ -100,10 +176,12 @@ export default function CadastrodeAluno () {
 				</div>
 			</div>
 			<div className='CancelButton'>
-				<Button label="CANCELAR" className='Base_3' onClick={onClickCancelar}/>	
+				<Link to="/">
+					<Button label="CANCELAR" className='Base_3'/>	
+				</Link>
 			</div>
 			<div className='ConfirmButton'>
-				<Button label="CONFIRMAR" className='Base_4' onClick={onClickConfirmar}/>	
+					<Button label="CONFIRMAR" className='Base_4' onClick={onClickConfirmar}/>	
 			</div>
 			<div className='ProfilePicture'>
 				<div className='base_1'/>

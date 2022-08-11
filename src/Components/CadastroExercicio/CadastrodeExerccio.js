@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import './CadastrodeExerccio.css'
 import ImgAsset from '../../public'
 
@@ -20,29 +21,12 @@ import { Messages } from 'primereact/messages';
 import axios from 'axios'
 
 const api = axios.create({
-	baseURL: 'http://localhost:3001/exercicio/'
+	baseURL: 'http://localhost:3030/exercicio/'
 	
 });
 
 export default function CadastrodeExerccio () {
-	useEffect(()=>{
-		getExercicios();
-	}, []) // <-- empty dependency array
-
-	const [exercicios, setExercicios] = useState([])
-
-	const getExercicios = async () => {
-		var data = await api.get('/').then(({data}) => data).catch((exception) => {
-			console.log(exception);
-		});
-		setExercicios(data)
-	};
-	const createExercicio = async () => {
-		var res = await api.post('/', JSON.stringify({ nome: nome, execucao: descricao, grupoMuscular: grupos, equipamento: equipamento, descricaoVideo: ""}));
-		console.log(res);
-		getExercicios();
-	}
-
+	// Valores
 	const [nome, setNome] = useState("");
 	const [descricao, setDescricao] = useState("");
 	const [equipamento, setEquipamento] = useState("");
@@ -50,13 +34,7 @@ export default function CadastrodeExerccio () {
 		{name: ''},
 	]);
 	const grupoSelecionado = useState(null);
-
-	//Mensagem
-	const msgs = useRef(null);
-
-	//Funções
-	const clickerFunction = () => console.log('hi');
-	
+	const [exercicios, setExercicios] = useState([])
 	const gpsMuscular = [
 		{name: 'Bíceps',},
 		{name: 'Tríceps',},
@@ -71,27 +49,70 @@ export default function CadastrodeExerccio () {
 		{name: 'Panturrilha'},
 	];
 
-	const onClickCriar = (e) => {
+	// Use effect
+	useEffect(()=>{
+		getExercicios();
+	}, []) // <-- empty dependency array
+
+	//Mensagem
+	const msgs = useRef(null);
+
+	// Funções do AXIOS
+	const getExercicios = async () => {
+		var data = await api.get('/').then(({data}) => data).catch((exception) => {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Função "get" no back-end falhou. O back-end está rodando? Veja console.', sticky: false },
+			]);
+			console.log(exception);
+		});
+		setExercicios(data)
+	};
+	const createExercicio = async () => {
+		var fail_flag = false;
+		const gruposFormatted = []
+		for (var i=0; i<grupos.length; i++) {
+			if (grupos[i].name != '')
+				gruposFormatted.push(grupos[i].name);
+		}
+		var dados = JSON.stringify({nome: nome, execucao: descricao, grupoMuscular:gruposFormatted, equipamento:equipamento, descricaoVideo:""});
+		const customConfig = {
+			headers: {
+			'Content-Type': 'application/json'
+			}
+		};
+		var res = await api.post('/', dados, customConfig).catch((error) =>
+		{
+			console.log(error.config);
+			addMessages(3);
+			fail_flag = true;
+		});
+		if(!fail_flag){
+			getExercicios();
+			addMessages(0);
+		}
+	}
+
+
+	//Funções
+
+	const onClickCriar = () => {
 		var form_status = 1;
 		var found_duplicate = false;
 		if(nome !== "" && descricao!=="" && grupos!== []){
-			console.log(exercicios);
 			for (var i=0; i<exercicios.length; i++) {
 				if (nome === exercicios[i].nome){
-					console.log("hello~~")
 					form_status = 2 // Exercicio ja existe
 					found_duplicate = true
 				}
 			}
 			if(!found_duplicate) {
 				createExercicio();
-				form_status = 0; // Sucesso
+				return;
 			}
 		}
 		else {
 			form_status = 1; // Valores faltando
 		}
-		console.log(exercicios);
 		addMessages(form_status);
 	}
 
@@ -112,6 +133,21 @@ export default function CadastrodeExerccio () {
 		else if (form_status === 1) {
 			msgs.current.show([
 				{ severity: 'error', detail: 'Dados necessários não foram inseridos.', sticky: false },
+			]);
+		}
+		else if (form_status ===2) {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Exercício com este nome já existe.', sticky: false },
+			]);
+		}
+		else if (form_status === 3) {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Falha na conexão com back-end.', sticky: false },
+			]);
+		}
+		else {
+			msgs.current.show([
+				{ severity: 'error', detail: 'Erro!', sticky: false },
 			]);
 		}
 	}
@@ -135,12 +171,6 @@ export default function CadastrodeExerccio () {
 					<span className="p-input-icon-left">
 						<InputText className='inputfield' placeholder="Selecione os equipamentos, se houver..."  value={equipamento} onChange={(e) => setEquipamento(e.target.equipamento)} />
 					</span>
-					<div className='addEquipButton'>
-						<div className='base'/>
-						<div className='addIcon'>
-							<img className='Vector_2' alt = '' src = {ImgAsset.CadastrodeExerccio_Vector_2} />
-						</div>
-					</div>
 					<div className='searchIcon2'>
 						<img className='Vector_3' alt = '' src = {ImgAsset.CadastrodeExerccio_Vector_3} />
 					</div>
@@ -174,8 +204,6 @@ export default function CadastrodeExerccio () {
 				</div>
 				<div className='GrupoField'>
 					<div className='tagItem1'>
-						<div className='Base_4'/>
-						<span className='Quadrceps'>Quadríceps</span>
 						{ grupos.map((grupo, index) => (
 								<div key={index}>
 									<div className={'tagger' + (index + 1)}>
@@ -193,7 +221,9 @@ export default function CadastrodeExerccio () {
 				</div>
 			</div>
 			<div className='CancelButton'>
-				<Button label="CANCELAR" className='Base_5' onClick={clickerFunction}/>
+				<Link to="/">
+					<Button label="CANCELAR" className='Base_5'/>
+				</Link>
 				
 			</div>
 			<div className='CriarButton'>
